@@ -19,6 +19,9 @@ export class AutoTeatFirst {
     get additionProduct(){
         return cy.get('.plp__card-grid').find('.product-cards-row')
     }
+    get additionProductTo(){
+        return this.additionProduct.first().find('.card-button-block')
+    }
     
     get searchTooltip(){
         return cy.get('.app-header-middle')

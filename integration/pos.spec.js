@@ -8,9 +8,7 @@ describe('access ui test', () => {
         firstMvid.searchIconWrap.click()
         firstMvid.inscriptionCheck.should('contain', 'Найдено 11043 товара в 20 категориях')
         firstMvid.inscriptionScale
-        firstMvid.additionProduct
-           .first()
-           .find('.card-button-block')
+        firstMvid.additionProductTo
            .first()
            .click()
         firstMvid.searchTooltip
